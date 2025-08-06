@@ -1,29 +1,8 @@
-# Part 2: ESP32-C6 Custom Firmware
+# Part 2: Wireless Connectivity for ESP32-P4
 
-<div class="grid grid-cols-2 gap-8">
+Espressif provides four main solutions for adding Wi-Fi and Bluetooth:
 
-<div>
-
-## What We'll Cover
-- **ESP-Hosted** architecture deep dive
-- **Custom firmware** development process
-- **UART/JTAG programming** techniques
-- **SDIO communication** verification
-- **Advanced WiFi features** implementation
-
-</div>
-
-<div>
-
-## Learning Objectives
-- Understand ESP-Hosted internals
-- Build and flash custom firmware
-- Program ESP32-C6 via UART/JTAG
-- Verify SDIO interface communication
-- **Unlock advanced** wireless capabilities
-
-</div>
-
-</div>
-
-**Goal:** Master ESP32-C6 customization for specialized networking needs
+- **ESP-AT**: Simple, AT command-based interface for basic connectivity. Easy to use, but limited in performance and flexibility.
+- **ESP-Extconn**: Integrates external wireless connectivity using familiar ESP-IDF APIs. Flexible, but requires more development effort. low SoC supported
+- **Wi-Fi Remote over ESP-Hosted**: Provides a standard network interface to the host. Supports advanced features, higher performance, and is open-source for customization.
+- **Wi-Fi Remote over EPPP**: General-purpose PPP connectivity for WiFi gateway applications. Uses standard PPP protocol with support for multiple transports and logical channels. 
