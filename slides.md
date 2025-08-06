@@ -30,11 +30,14 @@ pollSettings:
   anonymous: true
 ---
 
-# Introduction
+# ESP32-P4 Networking Workshop
 
----
-src: ./slides/00-introduction/01-title.md
----
+<span style="font-size: 1.5rem;">Hands-On Workshop: Basic Networking to Secure MQTT</span>
+
+<div style="position: absolute; bottom: 2rem; left: 0; width: 100%; text-align: center;">
+  ESP32-P4 Function EV Board + ESP32-C6<br>
+  <span style="font-size: 0.8rem; display: inline-block;">3-Part Workshop • Basic Networking • Custom Firmware • Secure MQTT</span>
+</div>
 
 ---
 src: ./slides/00-introduction/02-new-agenda.md
@@ -51,6 +54,18 @@ src: ./slides/01-part1-basic-networking/01-part1-intro.md
 ---
 
 ---
+src: ./slides/01-part1-basic-networking/01-quick-start-hands-on.md
+---
+
+---
+src: ./slides/01-part1-basic-networking/01b-minimal-working-code.md
+---
+
+---
+src: ./slides/01-part1-basic-networking/02-menuconfig-wifi-setup.md
+---
+
+---
 src: ./slides/01-part1-basic-networking/02-esp-netif-architecture.md
 ---
 
@@ -59,31 +74,19 @@ src: ./slides/01-part1-basic-networking/03-esp-netif-operations.md
 ---
 
 ---
-src: ./slides/01-part1-basic-networking/04-ethernet-advantages.md
+src: ./slides/01-part1-basic-networking/04-wifi-remote-basics.md
 ---
 
 ---
-src: ./slides/01-part1-basic-networking/05-ethernet-setup.md
+src: ./slides/01-part1-basic-networking/05-wifi-configuration.md
 ---
 
 ---
-src: ./slides/01-part1-basic-networking/06-ethernet-configuration.md
+src: ./slides/01-part1-basic-networking/06-network-events.md
 ---
 
 ---
-src: ./slides/01-part1-basic-networking/07-wifi-remote-basics.md
----
-
----
-src: ./slides/01-part1-basic-networking/08-wifi-configuration.md
----
-
----
-src: ./slides/01-part1-basic-networking/09-network-events.md
----
-
----
-src: ./slides/01-part1-basic-networking/10-part1-hands-on.md
+src: ./slides/01-part1-basic-networking/07-part1-hands-on.md
 ---
 
 # Part 2: ESP32-C6 Custom Firmware

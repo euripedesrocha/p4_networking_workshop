@@ -38,4 +38,4 @@ esp_netif_get_ip_info(netif, &ip_info);
 </div>
 
 ## Core Concept
-**Same APIs work for Ethernet, WiFi, or any network interface**
+**Same APIs work regardless of WiFi implementation - direct or WiFi Remote**

@@ -1,22 +1,44 @@
-# ESP-NETIF Architecture
+# What Just Happened? ESP-NETIF Explained
 
-<div class="text-center mb-8">
+<div class="grid grid-cols-2 gap-8">
 
+<div>
+
+## Your Code Called This:
+```c
+ESP_ERROR_CHECK(esp_netif_init());
+ESP_ERROR_CHECK(example_connect());
+```
+
+## ESP-NETIF Did This:
 ```
 ┌─────────────────┐
-│   Application   │
+│ example_connect() │ ← Your simple call
 ├─────────────────┤
-│   ESP-NETIF     │ ← Transport Independent
+│   ESP-NETIF     │ ← Abstraction layer
 ├─────────────────┤
-│   lwIP Stack    │
+│   lwIP Stack    │ ← TCP/IP implementation
 ├─────────────────┤
-│ Driver (ETH/WiFi) │
+│ WiFi Remote Driver │ ← Talks to ESP32-C6
 └─────────────────┘
 ```
 
 </div>
 
-## Key Benefits
-- **Transport independent** - Same API for Ethernet/WiFi
-- **Multi-interface** support with automatic routing
-- **Event-driven** architecture for state management
+<div>
+
+## Why This Matters
+- **One API** works for WiFi, Ethernet, any transport
+- **Your app doesn't care** how networking happens
+- **Same pattern** in all ESP-IDF protocol examples
+
+## The Power
+- Change network type? **Code stays same**
+- Add multiple interfaces? **ESP-NETIF handles it**
+- Switch hardware? **Application unchanged**
+
+**ESP-NETIF = Write once, network anywhere**
+
+</div>
+
+</div>
