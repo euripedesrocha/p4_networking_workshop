@@ -30,11 +30,14 @@ pollSettings:
   anonymous: true
 ---
 
-# Introduction
+# ESP32-P4 Networking Workshop
 
----
-src: ./slides/00-introduction/01-title.md
----
+<span style="font-size: 1.5rem;">Hands-On Workshop: Basic Networking to Secure MQTT</span>
+
+<div style="position: absolute; bottom: 2rem; left: 0; width: 100%; text-align: center;">
+  ESP32-P4 Function EV Board + ESP32-C6<br>
+  <span style="font-size: 0.8rem; display: inline-block;">3-Part Workshop • Basic Networking • Custom Firmware • Secure MQTT</span>
+</div>
 
 ---
 src: ./slides/00-introduction/02-new-agenda.md
@@ -51,40 +54,144 @@ src: ./slides/01-part1-basic-networking/01-part1-intro.md
 ---
 
 ---
-src: ./slides/01-part1-basic-networking/02-esp-netif-architecture.md
+src: ./slides/01-part1-basic-networking/02-quick-start-hands-on.md
 ---
 
 ---
-src: ./slides/01-part1-basic-networking/03-esp-netif-operations.md
+src: ./slides/01-part1-basic-networking/03-minimal-working-code.md
 ---
 
 ---
-src: ./slides/01-part1-basic-networking/04-ethernet-advantages.md
+src: ./slides/01-part1-basic-networking/04-menuconfig-wifi-setup.md
 ---
 
 ---
-src: ./slides/01-part1-basic-networking/05-ethernet-setup.md
+src: ./slides/01-part1-basic-networking/05-esp-netif-architecture.md
 ---
 
 ---
-src: ./slides/01-part1-basic-networking/06-ethernet-configuration.md
+src: ./slides/01-part1-basic-networking/06-esp-netif-operations.md
 ---
 
 ---
-src: ./slides/01-part1-basic-networking/07-wifi-remote-basics.md
+src: ./slides/01-part1-basic-networking/07-esp-netif-configuration.md
 ---
 
 ---
-src: ./slides/01-part1-basic-networking/08-wifi-configuration.md
+src: ./slides/01-part1-basic-networking/08-wifi-remote-basics.md
 ---
 
 ---
-src: ./slides/01-part1-basic-networking/09-network-events.md
+src: ./slides/01-part1-basic-networking/09-wifi-configuration.md
+---
+
+<!-- --- -->
+<!-- src: ./slides/01-part1-basic-networking/06-network-events.md -->
+<!-- --- -->
+
+---
+src: ./slides/01-part1-basic-networking/10-custom-wifi-manager-intro.md
 ---
 
 ---
-src: ./slides/01-part1-basic-networking/10-part1-hands-on.md
+src: ./slides/01-part1-basic-networking/11a-wifi-manager-concepts.md
 ---
+
+---
+src: ./slides/01-part1-basic-networking/11b-wifi-manager-interface.md
+---
+
+---
+src: ./slides/01-part1-basic-networking/11c-wifi-event-concepts.md
+---
+
+---
+src: ./slides/01-part1-basic-networking/11d-wifi-event-types.md
+---
+
+---
+src: ./slides/01-part1-basic-networking/11e-wifi-event-implementation.md
+---
+
+---
+src: ./slides/01-part1-basic-networking/11f-wifi-reason-codes.md
+---
+
+---
+src: ./slides/01-part1-basic-networking/12a-network-layer-concepts.md
+---
+
+---
+src: ./slides/01-part1-basic-networking/12b-network-layer-interface.md
+---
+
+---
+src: ./slides/01-part1-basic-networking/12c-ip-event-concepts.md
+---
+
+---
+src: ./slides/01-part1-basic-networking/12d-ip-event-handler.md
+---
+
+---
+src: ./slides/01-part1-basic-networking/12e-network-status-api.md
+---
+
+---
+src: ./slides/01-part1-basic-networking/13a-retry-patterns.md
+---
+
+---
+src: ./slides/01-part1-basic-networking/13b-retry-strategies.md
+---
+
+---
+src: ./slides/01-part1-basic-networking/13c-retry-logic.md
+---
+
+---
+src: ./slides/01-part1-basic-networking/13d-retry-success-handling.md
+---
+
+---
+src: ./slides/01-part1-basic-networking/13e-reason-codes-mapping.md
+---
+
+---
+src: ./slides/01-part1-basic-networking/13f-reason-codes-categories.md
+---
+
+---
+src: ./slides/01-part1-basic-networking/13g-event-registration.md
+---
+
+---
+src: ./slides/01-part1-basic-networking/13h-event-cleanup.md
+---
+
+---
+src: ./slides/01-part1-basic-networking/18a-integration-concepts.md
+---
+
+---
+src: ./slides/01-part1-basic-networking/18b-initialization-sequence.md
+---
+
+<!-- --- -->
+<!-- src: ./slides/01-part1-basic-networking/18c-monitoring-concepts.md -->
+<!-- --- -->
+<!---->
+<!-- --- -->
+<!-- src: ./slides/01-part1-basic-networking/18d-monitoring-implementation.md -->
+<!-- --- -->
+<!---->
+<!-- --- -->
+<!-- src: ./slides/01-part1-basic-networking/18e-resource-management.md -->
+<!-- --- -->
+<!---->
+<!-- --- -->
+<!-- src: ./slides/01-part1-basic-networking/19a-part1-hands-on.md -->
+<!-- --- -->
 
 # Part 2: ESP32-C6 Custom Firmware
 
