@@ -200,43 +200,23 @@ src: ./slides/02-part2-esp32c6-firmware/01-part2-intro.md
 ---
 
 ---
-src: ./slides/02-part2-esp32c6-firmware/02-esp-hosted-architecture.md
+src: ./slides/02-part2-esp32c6-firmware/02-connectivity-comparison.md
 ---
 
 ---
-src: ./slides/02-part2-esp32c6-firmware/03-custom-firmware-benefits.md
+src: ./slides/02-part2-esp32c6-firmware/05-esp-hosted-tasks.md
 ---
 
 ---
-src: ./slides/02-part2-esp32c6-firmware/04-firmware-requirements.md
+src: ./slides/02-part2-esp32c6-firmware/06-development-environment.md
 ---
 
 ---
-src: ./slides/02-part2-esp32c6-firmware/05-development-environment.md
+src: ./slides/02-part2-esp32c6-firmware/07-esp-prog-connection.md
 ---
 
 ---
-src: ./slides/02-part2-esp32c6-firmware/06-building-firmware.md
----
-
----
-src: ./slides/02-part2-esp32c6-firmware/07-flashing-process.md
----
-
----
-src: ./slides/02-part2-esp32c6-firmware/08-uart-jtag-programming.md
----
-
----
-src: ./slides/02-part2-esp32c6-firmware/09-sdio-verification.md
----
-
----
-src: ./slides/02-part2-esp32c6-firmware/10-advanced-features.md
----
-
----
-src: ./slides/02-part2-esp32c6-firmware/11-part2-hands-on.md
+src: ./slides/02-part2-esp32c6-firmware/08-flash-process.md
 ---
 
 # Part 3: Secured MQTT with Mutual Authentication
