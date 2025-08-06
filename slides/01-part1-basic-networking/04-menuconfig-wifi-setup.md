@@ -4,7 +4,7 @@
 
 <div>
 
-## 3. Set Target & Configure
+### 3. Set Target & Configure
 ```bash
 idf.py set-target esp32p4
 idf.py menuconfig
@@ -23,13 +23,13 @@ Set these values:
 
 <div>
 
-## 4. Build & Flash
+### 4. Build & Flash
 ```bash
 idf.py build
 idf.py flash monitor
 ```
 
-## Expected Output:
+### Expected Output:
 ```
 I (xxx) wifi_quickstart: [APP] Startup..
 I (xxx) example_connect: Start example_connect.

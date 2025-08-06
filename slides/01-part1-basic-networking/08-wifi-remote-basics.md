@@ -4,15 +4,12 @@
 
 <div>
 
-## How Did WiFi Work on ESP32-P4?
-**ESP32-P4 has no WiFi radio!**
-
 Your `idf_component.yml` added:
 ```yaml
-espressif/esp_wifi_remote: "^0.4.0"
+espressif/esp_wifi_remote: "^0.14.4"
 ```
 
-## The Magic Architecture
+### The Magic Architecture
 ```
 ESP32-P4          ESP32-C6-MINI-1
 ┌─────────────┐   ┌─────────────────┐
@@ -31,23 +28,20 @@ ESP32-P4          ESP32-C6-MINI-1
 
 <div>
 
-## Why This Works
+### Why This Works
 - **ESP32-C6** handles all wireless operations
 - **WiFi Remote** bridges ESP32-P4 ↔ ESP32-C6
 - **Standard WiFi APIs** work unchanged
-- **SDIO interface** provides high-speed connection
 
-## Pre-configured SDIO Pins
-ESP32-P4 Function EV Board:
-- CLK: GPIO 43, CMD: GPIO 44
-- Data: GPIO 39-42, INT: GPIO 47
-
-## The Result
+### The Result
 ```c
 esp_wifi_connect(); // Just works! ✨
 ```
 
-**Your ESP32-P4 gained WiFi superpowers!**
+### This architecture means your system will:
+- ✅ Use standard `esp_wifi_*` APIs
+- ✅ Handle events as usual
+- ✅ Work with any ESP32-P4 board setup
 
 </div>
 
